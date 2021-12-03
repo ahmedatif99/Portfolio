@@ -7,6 +7,7 @@ import SoundBar from '../../components/SoundBar/sound-bar.component'
 import SocialIcons from '../../components/Social-Icon/social-icons.component'
 import { lightTheme } from '../../components/Themes/themes.component'
 import Title from '../../components/Title/title.component'
+import Particle from '../../components/Particle/particle.component'
 
 import { Design, Develope } from '../../components/SVGs/allSVGs'
 import { Box, Description, Main, InnerTitle } from './my-skills.styles'
@@ -19,6 +20,7 @@ const MySkills = () => {
                 <SoundBar />
                 <SocialIcons theme='light'/>
                 <PowerButton/>
+                <Particle theme='light' />
 
                 <Main>
                     <InnerTitle>

@@ -7,6 +7,7 @@ import SoundBar from '../../components/SoundBar/sound-bar.component';
 import SocialIcons from '../../components/Social-Icon/social-icons.component';
 import { darkTheme } from '../../components/Themes/themes.component';
 import Title from '../../components/Title/title.component';
+import Particle from '../../components/Particle/particle.component'
 
 import Me from '../../assets/Images/about.png';
 import { Box, Main, Photo } from './about.styles';
@@ -20,6 +21,7 @@ const About = () => {
                 <SoundBar />
                 <SocialIcons theme='dark'/>
                 <PowerButton />
+                <Particle theme='dark'/>
 
                 <Photo>
                     <img src={Me} alt="personal bitmoji" />
