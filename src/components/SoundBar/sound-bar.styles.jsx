@@ -4,8 +4,8 @@ export const Box = styled.div`
 display:flex;
 cursor:pointer;
 position:fixed;
-left:8rem;
-top:3rem;
+left:15rem;
+top:2.6rem;
 z-index:10;
 &>*:nth-child(1){
     animation-delay: 0.2s;
