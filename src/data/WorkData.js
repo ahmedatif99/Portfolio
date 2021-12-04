@@ -1,61 +1,58 @@
-export const Work = [
+export const WorkData = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"CRWN clothing E-commerce ",
+        description:"It is build on top of the React JS, with styledComponents, Redux for state management and firebase.",
+        tags:["React","Redux","StyledComponents", "Hooks", "Firebase"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://crwn-ahmedatif-clothing-store.herokuapp.com/",
+        github:"https://github.com/ahmedatif99/crwn-clothing"
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"Movie watchlist",
+        description:"It is build on top of the React JS and context-api. With searching and filtering functionalities.",
+        tags:["React","Context-API"],
         
         demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
+        github:"https://github.com/ahmedatif99/movie-watchlist"
         
     },
     {
         id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        name:"REST-Countries-API ",
+        description:"It is build on top of the React JS, sass, . With realtime fetching of articles from dev.to using API, With searching and filtering functionalities.",
+        tags:["React","API","Sass"],
         
         demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        github:"https://github.com/ahmedatif99/REST-Countries-API"
     },
     {
         id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
+        name:"Portfolio",
+        description:"It is build on top of the React JS, chakra-ui. With dark and light theme switcher",
+        tags:["React","Chakra-UI"],
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
-       
-    },{
+        demo:"http://devto-clone-codebucks27.vercel.app/",
+        github:"https://github.com/ahmedatif99/chakra-ui-portfolio"
+    },
+    {
         id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
+        name:"Tv-Show",
+        description:"It is build on top of the React JS and context-api and StyledComponents. With searching and filtering functionalities.",
+        tags:["React","Context-API", "StyledComponents"],
         
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
-        
+        demo:"https://ahmedatif-tv-show.netlify.app/",
+        github:"https://github.com/ahmedatif99/tv-show"
     },
     {
         id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
+        name:"Selat",
+        description:"It is build on top of the Bootstrap-4. With nice style and full responsive.",
+        tags:["Html5","Css3", "Bootstrap", "JS"],
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
-        
+        demo:"https://selat.resoos.com/",
+        github:""
     },
-    
   
 ] 

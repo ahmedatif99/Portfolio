@@ -3,7 +3,6 @@ import { ThemeProvider } from 'styled-components';
 
 import Logo from '../../components/Logo/logo.component';
 import PowerButton from '../../components/Power-Button/power-button.component';
-import SoundBar from '../../components/SoundBar/sound-bar.component';
 import SocialIcons from '../../components/Social-Icon/social-icons.component';
 import { darkTheme } from '../../components/Themes/themes.component';
 import Title from '../../components/Title/title.component';
@@ -18,7 +17,6 @@ const About = () => {
             <Box>
 
                 <Logo theme='dark'/>
-                <SoundBar />
                 <SocialIcons theme='dark'/>
                 <PowerButton />
                 <Particle theme='dark'/>
