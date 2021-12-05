@@ -14,7 +14,7 @@ export const WorkData = [
         description:"It is build on top of the React JS and context-api. With searching and filtering functionalities.",
         tags:["React","Context-API"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
+        demo:"https://watchlist-pi.vercel.app/",
         github:"https://github.com/ahmedatif99/movie-watchlist"
         
     },
@@ -24,7 +24,7 @@ export const WorkData = [
         description:"It is build on top of the React JS, sass, . With realtime fetching of articles from dev.to using API, With searching and filtering functionalities.",
         tags:["React","API","Sass"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
+        demo:"",
         github:"https://github.com/ahmedatif99/REST-Countries-API"
     },
     {
@@ -33,7 +33,7 @@ export const WorkData = [
         description:"It is build on top of the React JS, chakra-ui. With dark and light theme switcher",
         tags:["React","Chakra-UI"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
+        demo:"https://chakraui-portfolio.vercel.app/",
         github:"https://github.com/ahmedatif99/chakra-ui-portfolio"
     },
     {
