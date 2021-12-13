@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { device } from '../../media'
 
 export const Power = styled.button`
 position: fixed;
@@ -23,5 +24,17 @@ cursor: pointer;
 &>*:first-child{
     text-decoration: none;
     color: inherit;
+}
+
+@media ${device.mobileM} {
+    left: 60%;
+}
+
+@media ${device.mobileL} {
+    left: 65%;
+}
+
+@media ${device.tablet} {
+    left: 65%;
 }
 `

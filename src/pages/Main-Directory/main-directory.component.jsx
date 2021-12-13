@@ -53,7 +53,7 @@ const MainDirectory = () => {
                             transition: { type: 'spring', duration: 1.5, delay: 1 }
                         }}
                         animate={{
-                            y: 0,
+                            y: 70,
                             transition: { type: 'spring', duration: 1.5, delay: 1 }
                         }}
                         whileHover={{scale: 1.1}}

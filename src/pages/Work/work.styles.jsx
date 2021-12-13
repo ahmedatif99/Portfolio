@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import styled from "styled-components"
+import { device } from "../../media"
 
 export const Box = styled.div`
 background-color: ${props => props.theme.body};
@@ -16,6 +17,10 @@ left:calc(10rem + 15vw);
 height: 40vh;
 display: flex;
 color:white;
+@media ${device.tablet} {
+  width: 220%;
+  left:calc(5rem + 12vw);
+}
 `
 
 // Framer-motion Configuration

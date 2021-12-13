@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import styled from "styled-components"
+import { device } from "../../media"
 
 export const Box = styled(motion.div)`
 position: absolute;
@@ -17,11 +18,11 @@ background: linear-gradient(
     to right,
     ${props => props.theme.body} 50%,
     ${props => props.theme.text} 50%) top;
-    background-repeat: no-repeat;
+background-repeat: no-repeat;
 background-size: 100% 2px;
-    border-left: 2px solid ${props => props.theme.body};
-    border-right: 2px solid ${props => props.theme.text};
-    z-index:1;
+border-left: 2px solid ${props => props.theme.body};
+border-right: 2px solid ${props => props.theme.text};
+z-index:1;
 `
 export const SubBox = styled.div`
 width: 50%;
@@ -34,6 +35,22 @@ display: flex;
     transform: translate(-50%,0%);
     width: 100%;
     height: auto;
+
+    @media ${device.desktopL} {
+        width: 100%;
+    }
+    @media ${device.laptopL} {
+        width: 120%;
+    }
+    @media ${device.laptop} {
+        width: 150%;
+    }
+    @media ${device.tablet} {
+        width: 220%;
+    }
+    @media ${device.mobileL} {
+        width: 250%;
+    }
 }
 `
 

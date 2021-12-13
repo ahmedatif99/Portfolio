@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components"
+import { device } from "../../media"
 
 export const Box = styled.div`
 display:flex;
@@ -21,6 +22,18 @@ z-index:10;
 }
 &>*:nth-child(5){
     animation-delay: 0.8s;
+}
+
+@media ${device.mobileM} {
+    left: 40%;
+}
+
+@media ${device.mobileL} {
+    left: 44%;
+}
+
+@media ${device.tablet} {
+    left: 45%;
 }
 `
 

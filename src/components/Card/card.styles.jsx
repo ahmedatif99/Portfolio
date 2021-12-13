@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { NavLink } from "react-router-dom"
 import styled from "styled-components"
+import { device } from "../../media"
 
 export const Box = styled(motion.li)`
 width: 16rem;
@@ -20,6 +21,10 @@ background-color: ${props => props.theme.body};
 color:${props => props.theme.text};
 border: 1px solid ${props => props.theme.text};
 }
+
+@media ${device.tablet} {
+        width: 150px;
+    }
 `
 export const Title = styled.h2`
 font-size: calc(1em + 0.5vw);

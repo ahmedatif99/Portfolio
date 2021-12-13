@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { device } from '../../media'
 
 export const Box = styled.div`
 background-color: ${props => props.theme.body};
@@ -8,6 +9,12 @@ position: relative;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
+top: 10px;
+
+@media ${device.tablet} {
+    flex-direction: column;
+    justify-content: space-between;
+}
 `
 
 export const Main = styled.div`
@@ -27,6 +34,11 @@ justify-content: space-between;
 &:hover{
     color: ${props => props.theme.body};
     background-color: ${props => props.theme.text};
+}
+
+@media ${device.tablet} {
+    margin-top: 20%;
+    height: auto;
 }
 `
 
