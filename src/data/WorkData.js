@@ -60,8 +60,8 @@ export const WorkData = [
       "It is build on top of the React JS, sass, . With realtime fetching of articles from dev.to using API, With searching and filtering functionalities.",
     tags: ["React", "API", "Sass"],
 
-    demo: "",
-    github: "https://github.com/ahmedatif99/REST-Countries-API",
+    demo: "https://rest-countries-api-ashen-ten.vercel.app/",
+    github: "https://github.com/ahmedatif99/REST-Countries",
   },
   {
     id: 6,
