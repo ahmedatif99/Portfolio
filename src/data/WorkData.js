@@ -40,7 +40,7 @@ export const WorkData = [
       " E-commerce is a clothing store, that offers clothes, Hats, Sneakers, and Jackets for men and women that can be bought and delivered.",
     tags: ["React", "Redux", "StyledComponents", "Hooks", "Firebase"],
 
-    demo: "",
+    demo: "https://crwn-clothing-tan-tau.vercel.app/",
     github: "https://github.com/ahmedatif99/crwn-clothing",
   },
   {
