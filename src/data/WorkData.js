@@ -100,7 +100,7 @@ export const WorkBackendData = [
     id: 1,
     name: "Airbnb Clone",
     description:
-      "It is full stack web app clone build on top of Django for backend, with using many of django third party library as rest-framework and celere and translation to add some functionality was important.",
+      "It is full stack web app clone build on top of Django for backend, with using many of django third party library as celere to add some functionality was important.",
     tags: ['Django', 'rest-framework', "python3", 'postman', 'celery', 'rest-auth', 'ajax', 'translation', 'payment'],
 
     demo: "http://ahmedatif99.pythonanywhere.com/",
