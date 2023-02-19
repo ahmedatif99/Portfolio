@@ -100,10 +100,20 @@ export const WorkBackendData = [
     id: 1,
     name: "Airbnb Clone",
     description:
-      "It is build on top of the React JS, with styledComponents, Redux for state management and firebase.",
-    tags: [],
+      "It is full stack web app clone build on top of Django for backend, with using many of django third party library as rest-framework and celere and translation to add some functionality was important.",
+    tags: ['Django', 'django-rest-framework', "python3", 'postman', 'celery', 'django-rest-auth', 'ajax-jquery', 'functionbasedviews', 'translation', 'bootstarp', 'chart-js', 'payment'],
 
     demo: "http://ahmedatif99.pythonanywhere.com/",
     github: "https://github.com/ahmedatif99/Django-Airbnb-Clone",
+  },
+  {
+    id: 2,
+    name: "Meals Rater API ",
+    description:
+      "It is build on top of the Django using <rest-framework>, allow users or guests to rate the Meals of the resturents.",
+    tags: ['Django', 'django-rest-framework', "python3", 'postman', 'github'],
+
+    demo: "http://ahmedatif.pythonanywhere.com/",
+    github: "https://github.com/ahmedatif99/Meals_Rater_API",
   },
 ];
